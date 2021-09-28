@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 from web.controller import Ui_MainWindow
 import samsungctl
 import sys
-import time
 
 
 class WindowManager:
@@ -64,9 +63,6 @@ class WindowManager:
             samsungctl.Remote(self.config).remote.close()
         except:
             self.ui_main.label_2.setText('ERROR')
-
-    def __click_btn1(self):
-        pass
 
     def exit(self):
         sys.exit(self.app.exec_())
