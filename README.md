@@ -1,1 +1,1 @@
-# smart_tv_ez_controller
+# Elementary remote control for controlling TV via ip address
