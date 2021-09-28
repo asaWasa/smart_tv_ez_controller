@@ -1,1 +1,1 @@
-# Elementary remote control for controlling TV via ip address
+# Elementary remote control for TV via ip address
